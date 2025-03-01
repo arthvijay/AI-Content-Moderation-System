@@ -9,7 +9,7 @@ import os
 import pdfplumber
 
 # Setup OpenAI API key
-openai.api_key = 'your_openai_api_key_here' #please use your own key, not mine! :)
+openai.api_key = OPENAI_API_KEY #please use your own key :)
 
 # Function to analyze the content
 def analyze_content(text):
