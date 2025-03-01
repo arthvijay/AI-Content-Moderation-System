@@ -1,0 +1,26 @@
+# Core dependencies for interacting with the OpenAI API
+openai==0.27.0
+
+# For handling data processing
+pandas==2.0.1
+
+# For working with Excel files
+openpyxl==3.1.2
+
+# For managing virtual environments (optional, if needed)
+virtualenv==20.16.0
+
+# For making HTTP requests (if you need it for any additional features)
+requests==2.28.2
+
+# For working with JSON files (optional for batch processing)
+jsonschema==4.17.3
+
+# For logging and debugging (useful for any detailed debugging)
+loguru==0.7.0
+
+# For handling batch processing and parallel tasks (optional for scaling)
+joblib==1.2.0
+
+# PDF processing library for extracting text
+pdfplumber==0.7.7
