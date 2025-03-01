@@ -9,7 +9,11 @@ import os
 import pdfplumber
 
 # Setup OpenAI API key
-openai.api_key = OPENAI_API_KEY #please use your own key :)
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')  # Import from environment variable
+if not OPENAI_API_KEY:
+    raise ValueError("Please set the OPENAI_API_KEY environment variable")
+
+openai.api_key = OPENAI_API_KEY
 
 # Function to analyze the content
 def analyze_content(text):
