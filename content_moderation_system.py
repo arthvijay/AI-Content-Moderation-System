@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 OPENAI_API_URL = os.getenv('OPENAI_API_URL')
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 # Function to analyze the content
 def analyze_content(text):
@@ -33,7 +34,7 @@ def analyze_content(text):
     """
     client = OpenAI(
     base_url=OPENAI_API_URL,
-    api_key='ollama',  # required, but unused
+    api_key=OPENAI_API_KEY,  # required, but unused
 )
 
     response = client.chat.completions.create(
