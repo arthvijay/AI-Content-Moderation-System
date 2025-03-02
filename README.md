@@ -30,7 +30,7 @@
 <h3>Steps to Set Up</h3>
     <ol>
         <li><strong>Clone the Repository</strong>:
-            <pre><code>git clone https://github.com/yourusername/ai-content-moderation-system.git
+            <pre><code>git clone https://github.com/arthvijay/ai-content-moderation-system.git
 cd ai-content-moderation-system</code></pre>
         </li>
         <li><strong>Set Up Virtual Environment</strong> (optional but recommended):
